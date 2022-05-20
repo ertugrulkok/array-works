@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="wrapper">
+        <div class="add">
+          <input type="text" id="new" />
+          <button onclick="myFunction()">Add</button>
+          <p id="newEnter"></p>
+        </div>
+        <div class="remove">
+          <input type="text" id="delete" />
+          <button onclick="myFunction2()">Remove</button>
+        </div>
+        <div class="remove">
+          <button onclick="myFunction3()">Remove the last Element</button>
+        </div>
+        <div class="remove">
+          <button onclick="myFunction4()">Remove the first Element</button>
+        </div>
+        <div class="trash" id="trash">
+          <ul class="trashcan">
+            Buraya çöp atmak serbesttir
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
